@@ -4,7 +4,7 @@
 }
 
 body {
- font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 
@@ -15,17 +15,19 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
   padding: 0 !important;
 }
 
 img {
   width: 300px;
-  margin-left: 20% ;
+  margin-left: 20%;
 }
+
 .navbar-nav li {
   padding: 0 10px;
 }
+
 .navbar-nav li a {
   color: white !important;
   font-weight: 600;
@@ -43,10 +45,11 @@ img {
   outline: none !important;
 
 }
+
 /*------------------------------------- Banner section ---------------------------------*/
 
 #banner {
-  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
   color: #fff;
   padding-top: 5%;
 }
@@ -55,6 +58,8 @@ img {
   font-size: 40px;
   font-weight: 600;
   margin-top: 100;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .play-btn {
@@ -62,6 +67,7 @@ img {
   margin: 20px;
   color: #fff !important;
 }
+
 #banner a {
   color: #fff;
   direction: none;
@@ -79,7 +85,7 @@ img {
 
 .footer-wave {
   width: 100%;
-} 
+}
 
 /*---------------------------------------- Services --------------------------------------*/
 
@@ -90,6 +96,8 @@ img {
 .services-img {
   width: 100px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services {
@@ -103,14 +111,14 @@ img {
 
 .title::before {
 
-content: '';
-background: #7b1798;
-height: 5px;
-width: 200px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-transform: translatey(63px);
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
 }
 
 .title::after {
@@ -124,7 +132,7 @@ transform: translatey(63px);
   margin-bottom: 40px;
   display: block;
   transform: translatey(8px);
-  }
+}
 
 
 #services .btn-primary {
@@ -132,7 +140,7 @@ transform: translatey(63px);
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
 
 /*-------------------------------------- about us---------------------------------- */
@@ -147,4 +155,123 @@ transform: translatey(63px);
   font-size: 40px;
   font-weight: 600;
   margin-top: 8%;
+}
+
+#about-us ul li {
+  margin: 10px 0
+}
+
+#about-us ul {
+  margin-left: 40px;
+}
+
+/* --------------------------------------testimonials------------------------------------- */
+
+#testimonials {
+  margin: 100px;
+
+}
+
+.testimonials {
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/*--------------------------------------------------------- social media -----------------------------------*/
+
+#social-media {
+  background-color: #f8f9fa;
+  padding: 100px 200px;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.social-icons img {
+  display: inline-block;
+  width: 40px;
+  transition: 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translatey(-10px)
+}
+
+
+
+
+
+
+/*-----------------------------------------------------footer -----------------------------------*/
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+
+.footer-box {
+  padding: 10px;
+}
+
+.footer-box img {
+  width: 200px;
+  margin-bottom: 10px;
+
+}
+
+.footer-box .fas {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  content: center;
+  padding-top: 7;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+hr {
+  background-color: white;
+}
+
+.copywrite {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
 }

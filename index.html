@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/1c3c2830bd.js" crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -63,25 +64,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                >HOME <span class="sr-only">(current)</span></a
+              <a class="nav-link" href="#top">HOME <span class="sr-only">(current)</span></a
               >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#services">SERVICES</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+              <a class="nav-link" href="#about-us">ABOUT US</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">TESTIMONIALS</a>
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#social-media">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -156,7 +156,7 @@
         <h1 class="title text-center">WHY CHOOSE US?</h1>
         <div class="row">
           <div class="col-md-6 about-us">
-            <p class="about-title"> Why we're different</p>
+            <p class="about-title text-center"> Why we're different</p>
             <ul>
               <li>Understand our client's goal first</li>
               <li>Believe in doing business with honesty</li>
@@ -174,8 +174,101 @@
       </div>
     </section>
     <!-------------------------------------- testimony ---------------------------------------->
-    <section></section>
-    <!-------------------------------------- contact ---------------------------------------->
-    <section></section>
+    <section id="testimonials">
+      <div class="container">
+          <h1 class="title text-center">WHAT CLIENTS SAY</h1>
+          <div class="row offset-1">
+            <div class="col-md-5 testimonials">
+                <p>Subsribe Easy tutorials yuetube Channel to watch more videos on
+                    website development, Digital marketing, Wordpress and graphics
+                    Designing.
+                  </p>
+                  <img src="/img/test_0001_casual-facial-hair-fine-looking-1680317.jpg"/>
+                  <p class="user-details"><b>Micheal</b><br> Co-founder at xyz</p>
+              
+            </div>
+
+            <div class="col-md-5 testimonials">
+                <p>Subsribe Easy tutorials yuetube Channel to watch more videos on
+                    website development, Digital marketing, Wordpress and graphics
+                    Designing.
+                  </p>
+                  <img src="/img/test_0003_beautiful-brunette-day-time-3114993.jpg"/>
+                  <p class="user-details"><b>Laura</b><br> Director at xyz</p>   
+            </div>
+          </div>
+      </div>
+
+    </section>
+    <!-------------------------------------- social Media ---------------------------------------->
+    <section id="social-media">
+      <div class="container text-center">
+          <p>FIND US ON SOCIAL MEDIA</p>
+      </div>
+         <div class="container">
+            <div>
+              <div class="social-icons">
+                <a href="#"><img src="/img/social_0000_twitter.png"></a>
+              
+                <a href="#"><img src="/img/social_0001_facebopok.png"></a>
+              
+                <a href="#"><img src="/img/social_0002_instagram.png"></a>
+              
+                <a href="#"><img src="/img/social_0003_snapChat.png"></a>
+              
+                <a href="#"><img src="/img/social_0004_what'sapp.png"></a>
+              
+                <a href="#"><img src="/img/social_0005_youTube.png"></a>
+              
+              </div>
+        </div>
+
+      </div>
+     
+
+    </section>
+
+
+
+    <!-------------------------------------- footer ---------------------------------------->
+    <section id="footer">
+      <img src="" class="footer-img">
+     <div class="container">
+       <div class="row">
+         
+        <div class="col-md-4 footer-box">
+          <img src="/img/DigitalStars.png">
+          <p>Subsribe Easy tutorials yuetube Channel to watch more videos on
+              website development, Digital marketing, Wordpress and graphics
+              Designing. press the bell icon to get motifiactions
+            </p>
+         </div>
+
+         <div class="col-md-4 footer-box ">
+            <p><b>CONTACT US</b></p>
+            <p><i class="fas fa-map"></i>Old Town Road, Murfreesboro, TN</p>
+            <p><i class="fas fa-phone"></i>615.555.7722</p>
+            <p><i class="fas fa-at"></i>xyz@gmail.com</p>
+           </div>
+
+           <div class=" col-md-4 footer-box">
+           <p><b>SUBSCRIBE TO OUR NEWSLETTER</b></p>
+           <input type="email" class="form-control" placeholder="Your Email">
+           <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+           
+
+        </div>
+        <hr>
+        <p class="copywrite">Created by Digital Stars Web Design</p>
+     </div>
+
+     
+    </section>
+    <!---------------------------------------------- smooth scroll --------------------------->
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
   </body>
 </html>
